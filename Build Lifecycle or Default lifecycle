@@ -1,0 +1,15 @@
+                          Default Lifecycle (also known as Build Lifecycle):
+
+validate: In this phase, the project's structure and configuration are validated to ensure they are correct and complete.
+
+compile: This phase involves compiling the source code of the project. It converts source code files (usually written in programming languages like Java) into bytecode that can be executed by the Java Virtual Machine (JVM) or the relevant runtime environment.
+
+test: In this phase, automated tests are executed to verify that the compiled code functions as intended. Unit tests and integration tests are commonly run during this phase.
+
+package: Here, the compiled code and resources are packaged into distributable formats like JAR (Java Archive) or WAR (Web Archive), depending on the project type.
+
+verify: This phase involves running additional checks on the packaged code to ensure its correctness. These checks might include things like code analysis, style checks, and more.
+
+install: In this phase, the packaged code is installed into the local Maven repository. This local repository acts as a cache and stores the project's artifacts for future builds or for use by other projects on the same machine.
+
+deploy: The final packaged code is deployed to a remote repository, often used for sharing artifacts with other developers or for distribution.
