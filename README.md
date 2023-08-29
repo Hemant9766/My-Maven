@@ -1,8 +1,6 @@
 # My-Maven
 Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
-==================================================---===========================================================
-
 Certainly! I'll explain Maven in simpler terms for someone from a non-IT background.
 
 Imagine you want to build a model airplane from a kit. The kit comes with all the pieces you need, like the wings, body, and propellers. You also have a set of instructions that tell you how to put everything together step by step.
